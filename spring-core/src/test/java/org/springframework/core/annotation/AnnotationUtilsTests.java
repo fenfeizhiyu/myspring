@@ -306,6 +306,13 @@ public class AnnotationUtilsTests {
 		assertNotNull("Should find @Order on SubSubNonInheritedAnnotationInterface", order);
 	}
 
+
+	//note:yy
+	public void findAnnotationTest(){
+
+	}
+
+
 	@Test
 	public void findAnnotationDeclaringClassForAllScenarios() {
 		// no class-level annotation
