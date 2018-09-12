@@ -186,6 +186,11 @@ public class BeanUtilsTests {
 	}
 
 	@Test
+	public void testCopy(){
+
+	}
+
+	@Test
 	public void testCopyPropertiesWithInvalidProperty() {
 		InvalidProperty source = new InvalidProperty();
 		source.setName("name");
